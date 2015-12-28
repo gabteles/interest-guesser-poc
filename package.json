@@ -1,0 +1,19 @@
+{
+  "name": "ml-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Teles <gab.teles@hotmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "google": "^1.3.0",
+    "limdu": "^0.6.0",
+    "opener": "^1.4.1",
+    "opennlp": "^2.0.1",
+    "q": "^1.4.1",
+    "unfluff": "^0.11.0"
+  }
+}
