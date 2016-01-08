@@ -26,7 +26,6 @@ var pipeline = Q.Promise(function(resolve, reject) {
 		.wait(documentRepoInst.ready.bind(documentRepoInst))()
 		.then(presenter.wait(function() {
 			return Q.Promise(function(_resolve, _reject) {
-				console.log(documentRepoInst.getTrains());
 				documentClassifier.trainBatch(documentRepoInst.getTrains());
 				_resolve();
 			});
